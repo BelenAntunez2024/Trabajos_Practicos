@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var FabricaDeAnimales_1 = require("../FabricaDeAnimales");
+var fabrica = new FabricaDeAnimales_1.FabricaDeAnimales();
+var perro = FabricaDeAnimales_1.FabricaDeAnimales.crearAnimal('perro', "Duo");
+perro.hacerSonido();
+perro.mover();
+var gato = FabricaDeAnimales_1.FabricaDeAnimales.crearAnimal('gato', 'Misu');
+gato.hacerSonido();
+gato.mover();
+var pajaro = FabricaDeAnimales_1.FabricaDeAnimales.crearAnimal('pajaro', 'Piolin');
+pajaro.hacerSonido();
+pajaro.mover();

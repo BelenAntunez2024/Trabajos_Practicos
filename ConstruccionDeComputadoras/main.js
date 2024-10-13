@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var ComputadoraBuilder_1 = require("./ComputadoraBuilder");
+var miComputadora = new ComputadoraBuilder_1.ComputadoraBuilder();
+miComputadora.setProcesador("AMD Ryzen 7");
+miComputadora.setRAM("16GB");
+miComputadora.setAlmacenamiento("512GB SSD");
+miComputadora.setTarjetaGrafica("AMD Radeon RX 6700 XT");
+miComputadora.setSistemaOperativo("Linux Ubuntu");
+var computadoraNueva = miComputadora.build();
+console.log(computadoraNueva.toString());
